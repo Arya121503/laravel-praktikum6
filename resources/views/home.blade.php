@@ -9,7 +9,7 @@
     @vite('resources/sass/app.scss')
 </head>
 
-<body>
+<body style="background-color: #adc0d4;">
     @extends('layouts.app')
     @section('content')
     <div class="container mt-4">

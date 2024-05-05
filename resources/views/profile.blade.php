@@ -14,6 +14,7 @@ initial-scale=1.0">
     @extends('layouts.app')
     @section('content')
     <div class="container mt-4">
+        <img class="img-thumbnail" src="{{ Vite::asset('resources/images/photo1.png') }}" alt="image" width="250">
         <h4>{{ $pageTitle }}</h4>
         <hr>
         <div class="d-flex align-items-center py-2 px-4 bg-light
